@@ -110,3 +110,9 @@ button:hover{
     display: inline-block;
     margin-right: 10px;
 }
+
+footer{
+    padding: 35px;
+    text-align: center;
+    font-size: 15px;
+}
