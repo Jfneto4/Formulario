@@ -1,0 +1,112 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    background-color: #bdebff8f;
+}
+h1{
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+
+
+
+form{
+    background-color: aliceblue;
+padding: 25px;
+border-radius: 10px;
+max-width: 400px;
+margin: auto;
+box-shadow: 0 0 20px #c2d9ff
+}
+
+
+
+
+label{
+    font-weight: bold;
+    display: block;
+    margin: 10px 0 5px 0;
+}
+
+
+
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="number"],
+input[type="url"],
+input[type="tel"],
+input[type="date"],
+input[type="color"],
+select,
+textarea{
+    padding: 20x;
+    margin-bottom: 12px;
+    border: 1px solid #818181;
+    border-radius: 8px;
+    box-sizing: border-box;
+    width: calc(100% - 12px);
+}
+
+
+
+
+input[type="range"]{
+width: 100%;
+margin-bottom: 10px;
+
+
+
+
+
+}
+
+
+
+
+input[type="checkbox"],
+input[type="radio"]{
+    margin-right: 5px;
+}
+
+
+
+
+input[type="file"]{
+    margin-top: 10px;
+}
+
+
+
+
+button{
+    width: 30%;
+    padding: 10px;
+    background-color: #2e363eab;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+
+
+
+button:hover{
+    background-color: #498fa8;
+}
+
+
+
+
+.small_input{
+    width: auto;
+    display: inline-block;
+}
+.inline-label{
+    display: inline-block;
+    margin-right: 10px;
+}
